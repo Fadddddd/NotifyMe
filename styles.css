@@ -20,13 +20,16 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-right: 20px;
+  justify-content: center;
 }
 #user {
+  margin-top: 20px;
+  justify-content: flex-start;
   display: flex;
   flex-direction: row;
-  align-self: flex-end;
-  justify-content: flex-end;
-  padding-left: 40px;
+}
+.user_logo {
+  margin-left: 50px;
 }
 #titre {
   display: flex;
