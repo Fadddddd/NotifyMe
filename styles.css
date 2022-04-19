@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Rubik+Beastly&display=swap");
+
+body {
+  font-family: "Bubblegum Sans", Arial;
+  justify-content: center;
+  background-color: rgb(170, 160, 160);
+  color: white;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+#user {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: flex-end;
+  padding-left: 40px;
+}
+#titre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.service {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 2px;
+}
+p {
+  display: flex;
+  justify-content: right;
+}
+.blue {
+  color: rgb(44, 122, 134);
+  font-weight: bold;
+}
+.heure {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: flex-end;
+}
+.logos {
+  height: 50px;
+  width: 50px;
+}
+.service {
+  background-color: rgb(41, 76, 109);
+}
